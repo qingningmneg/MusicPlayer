@@ -3,3 +3,6 @@
 ################################################################################
 
 /WcleAnimationLibrary/obj/Debug
+/WinformControlLibraryExtension/obj/Debug
+/WinformControlLibraryExtension.ComplexityPropertys/obj/Release
+/WinformDemo/obj/x86/Debug

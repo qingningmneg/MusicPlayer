@@ -1,0 +1,667 @@
+﻿namespace WinformDemo
+{
+    partial class NavigationBarExtForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem1 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem2 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem3 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem4 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem5 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem6 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem7 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem8 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem9 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem10 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem11 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem12 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem13 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem14 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem15 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem16 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem17 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem18 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem19 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem20 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem21 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem22 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem23 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem24 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem25 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem26 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem27 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem28 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem29 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem30 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem31 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem32 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem33 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem34 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem35 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem36 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem37 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem38 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem39 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem navigationBarItem40 = new WinformControlLibraryExtension.NavigationBarExt.NavigationBarItem();
+            this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
+            this.navigationBarExt1 = new WinformControlLibraryExtension.NavigationBarExt();
+            this.navigationBarExt8 = new WinformControlLibraryExtension.NavigationBarExt();
+            this.navigationBarExt7 = new WinformControlLibraryExtension.NavigationBarExt();
+            this.navigationBarExt6 = new WinformControlLibraryExtension.NavigationBarExt();
+            this.navigationBarExt5 = new WinformControlLibraryExtension.NavigationBarExt();
+            this.navigationBarExt4 = new WinformControlLibraryExtension.NavigationBarExt();
+            this.navigationBarExt3 = new WinformControlLibraryExtension.NavigationBarExt();
+            this.navigationBarExt2 = new WinformControlLibraryExtension.NavigationBarExt();
+            this.SuspendLayout();
+            // 
+            // propertyGrid1
+            // 
+            this.propertyGrid1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.propertyGrid1.Location = new System.Drawing.Point(0, 0);
+            this.propertyGrid1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.propertyGrid1.Name = "propertyGrid1";
+            this.propertyGrid1.SelectedObject = this.navigationBarExt1;
+            this.propertyGrid1.Size = new System.Drawing.Size(642, 940);
+            this.propertyGrid1.TabIndex = 17;
+            // 
+            // navigationBarExt1
+            // 
+            this.navigationBarExt1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.navigationBarExt1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(183)))), ((int)(((byte)(107)))));
+            this.navigationBarExt1.CausesValidation = false;
+            this.navigationBarExt1.ItemDisableTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.navigationBarExt1.ItemInterval = 4;
+            this.navigationBarExt1.ItemNormalBackColor = System.Drawing.Color.Empty;
+            this.navigationBarExt1.ItemNormalTextColor = System.Drawing.Color.Gray;
+            navigationBarItem1.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem1.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem1.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem1.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem1.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem1.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem1.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem1.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem1.Text = "一级菜单";
+            navigationBarItem2.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem2.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem2.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem2.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem2.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem2.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem2.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem2.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem2.Text = "二级菜单";
+            navigationBarItem3.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem3.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem3.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem3.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem3.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem3.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem3.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem3.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem3.Text = "三级菜单";
+            navigationBarItem4.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem4.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem4.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem4.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem4.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem4.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem4.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem4.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem4.Text = "四级菜单";
+            navigationBarItem5.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem5.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem5.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem5.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem5.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem5.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem5.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem5.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem5.Text = "五级菜单";
+            this.navigationBarExt1.Items.Add(navigationBarItem1);
+            this.navigationBarExt1.Items.Add(navigationBarItem2);
+            this.navigationBarExt1.Items.Add(navigationBarItem3);
+            this.navigationBarExt1.Items.Add(navigationBarItem4);
+            this.navigationBarExt1.Items.Add(navigationBarItem5);
+            this.navigationBarExt1.ItemStyle = WinformControlLibraryExtension.NavigationBarExt.ItemStyles.Symbol;
+            this.navigationBarExt1.Location = new System.Drawing.Point(673, 44);
+            this.navigationBarExt1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.navigationBarExt1.Name = "navigationBarExt1";
+            this.navigationBarExt1.Size = new System.Drawing.Size(1045, 42);
+            this.navigationBarExt1.SymbolColor = System.Drawing.Color.Gray;
+            this.navigationBarExt1.TabIndex = 1;
+            this.navigationBarExt1.Text = "navigationBarExt2";
+            // 
+            // navigationBarExt8
+            // 
+            this.navigationBarExt8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.navigationBarExt8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(183)))), ((int)(((byte)(107)))));
+            this.navigationBarExt8.CausesValidation = false;
+            this.navigationBarExt8.ItemDisableTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.navigationBarExt8.ItemEnterTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.navigationBarExt8.ItemInterval = 0;
+            this.navigationBarExt8.ItemNormalBackColor = System.Drawing.Color.Empty;
+            this.navigationBarExt8.ItemNormalTextColor = System.Drawing.Color.Gray;
+            navigationBarItem6.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem6.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem6.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem6.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem6.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem6.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem6.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem6.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem6.Text = "一级菜单";
+            navigationBarItem7.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem7.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem7.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem7.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem7.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem7.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem7.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem7.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem7.Text = "二级菜单";
+            navigationBarItem8.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem8.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem8.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem8.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem8.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem8.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem8.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem8.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem8.Text = "三级菜单";
+            navigationBarItem9.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem9.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem9.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem9.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem9.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem9.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem9.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem9.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem9.Text = "四级菜单";
+            navigationBarItem10.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem10.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem10.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem10.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem10.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem10.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem10.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem10.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem10.Text = "五级菜单";
+            this.navigationBarExt8.Items.Add(navigationBarItem6);
+            this.navigationBarExt8.Items.Add(navigationBarItem7);
+            this.navigationBarExt8.Items.Add(navigationBarItem8);
+            this.navigationBarExt8.Items.Add(navigationBarItem9);
+            this.navigationBarExt8.Items.Add(navigationBarItem10);
+            this.navigationBarExt8.ItemStyle = WinformControlLibraryExtension.NavigationBarExt.ItemStyles.ObliqueLine;
+            this.navigationBarExt8.Location = new System.Drawing.Point(673, 98);
+            this.navigationBarExt8.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.navigationBarExt8.Name = "navigationBarExt8";
+            this.navigationBarExt8.Size = new System.Drawing.Size(1045, 42);
+            this.navigationBarExt8.SymbolColor = System.Drawing.Color.Gray;
+            this.navigationBarExt8.TabIndex = 2;
+            this.navigationBarExt8.Text = "navigationBarExt2";
+            // 
+            // navigationBarExt7
+            // 
+            this.navigationBarExt7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.navigationBarExt7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(183)))), ((int)(((byte)(107)))));
+            this.navigationBarExt7.CausesValidation = false;
+            this.navigationBarExt7.ItemDisableTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.navigationBarExt7.ItemInterval = 4;
+            navigationBarItem11.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem11.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem11.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem11.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem11.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem11.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem11.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem11.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem11.Text = "一级菜单";
+            navigationBarItem12.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem12.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem12.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem12.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem12.NormalBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
+            navigationBarItem12.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem12.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem12.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem12.Text = "二级菜单";
+            navigationBarItem13.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem13.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem13.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem13.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem13.NormalBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            navigationBarItem13.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem13.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem13.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem13.Text = "三级菜单";
+            navigationBarItem14.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem14.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem14.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem14.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem14.NormalBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(153)))));
+            navigationBarItem14.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem14.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem14.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem14.Text = "四级菜单";
+            navigationBarItem15.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem15.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem15.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem15.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem15.NormalBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            navigationBarItem15.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem15.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem15.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem15.Text = "五级菜单";
+            this.navigationBarExt7.Items.Add(navigationBarItem11);
+            this.navigationBarExt7.Items.Add(navigationBarItem12);
+            this.navigationBarExt7.Items.Add(navigationBarItem13);
+            this.navigationBarExt7.Items.Add(navigationBarItem14);
+            this.navigationBarExt7.Items.Add(navigationBarItem15);
+            this.navigationBarExt7.ItemStyle = WinformControlLibraryExtension.NavigationBarExt.ItemStyles.Quadrangle;
+            this.navigationBarExt7.Location = new System.Drawing.Point(673, 424);
+            this.navigationBarExt7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.navigationBarExt7.Name = "navigationBarExt7";
+            this.navigationBarExt7.Size = new System.Drawing.Size(1045, 42);
+            this.navigationBarExt7.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.navigationBarExt7.TabIndex = 8;
+            this.navigationBarExt7.Text = "navigationBarExt7";
+            this.navigationBarExt7.SelectedIndexChanged += new WinformControlLibraryExtension.NavigationBarExt.ItemOperatedEventHandler(this.navigationBarExt7_SelectedIndexChanged);
+            // 
+            // navigationBarExt6
+            // 
+            this.navigationBarExt6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.navigationBarExt6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(183)))), ((int)(((byte)(107)))));
+            this.navigationBarExt6.CausesValidation = false;
+            this.navigationBarExt6.ItemDisableTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.navigationBarExt6.ItemInterval = 4;
+            this.navigationBarExt6.ItemNormalBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            navigationBarItem16.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem16.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem16.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem16.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem16.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem16.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem16.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem16.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem16.Text = "一级菜单";
+            navigationBarItem17.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem17.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem17.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem17.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem17.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem17.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem17.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem17.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem17.Text = "二级菜单";
+            navigationBarItem18.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem18.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem18.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem18.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem18.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem18.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem18.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem18.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem18.Text = "三级菜单";
+            navigationBarItem19.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem19.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem19.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem19.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem19.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem19.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem19.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem19.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem19.Text = "四级菜单";
+            navigationBarItem20.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem20.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem20.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem20.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem20.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem20.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem20.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem20.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem20.Text = "五级菜单";
+            this.navigationBarExt6.Items.Add(navigationBarItem16);
+            this.navigationBarExt6.Items.Add(navigationBarItem17);
+            this.navigationBarExt6.Items.Add(navigationBarItem18);
+            this.navigationBarExt6.Items.Add(navigationBarItem19);
+            this.navigationBarExt6.Items.Add(navigationBarItem20);
+            this.navigationBarExt6.ItemStyle = WinformControlLibraryExtension.NavigationBarExt.ItemStyles.Circular;
+            this.navigationBarExt6.Location = new System.Drawing.Point(673, 369);
+            this.navigationBarExt6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.navigationBarExt6.Name = "navigationBarExt6";
+            this.navigationBarExt6.Size = new System.Drawing.Size(1045, 42);
+            this.navigationBarExt6.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.navigationBarExt6.TabIndex = 7;
+            this.navigationBarExt6.Text = "navigationBarExt6";
+            // 
+            // navigationBarExt5
+            // 
+            this.navigationBarExt5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.navigationBarExt5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(183)))), ((int)(((byte)(107)))));
+            this.navigationBarExt5.CausesValidation = false;
+            this.navigationBarExt5.ItemDisableTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.navigationBarExt5.ItemInterval = 4;
+            this.navigationBarExt5.ItemNormalBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(153)))));
+            navigationBarItem21.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem21.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem21.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem21.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem21.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem21.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem21.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem21.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem21.Text = "一级菜单";
+            navigationBarItem22.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem22.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem22.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem22.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem22.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem22.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem22.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem22.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem22.Text = "二级菜单";
+            navigationBarItem23.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem23.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem23.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem23.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem23.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem23.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem23.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem23.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem23.Text = "三级菜单";
+            navigationBarItem24.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem24.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem24.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem24.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem24.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem24.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem24.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem24.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem24.Text = "四级菜单";
+            navigationBarItem25.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem25.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem25.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem25.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem25.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem25.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem25.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem25.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem25.Text = "五级菜单";
+            this.navigationBarExt5.Items.Add(navigationBarItem21);
+            this.navigationBarExt5.Items.Add(navigationBarItem22);
+            this.navigationBarExt5.Items.Add(navigationBarItem23);
+            this.navigationBarExt5.Items.Add(navigationBarItem24);
+            this.navigationBarExt5.Items.Add(navigationBarItem25);
+            this.navigationBarExt5.ItemStyle = WinformControlLibraryExtension.NavigationBarExt.ItemStyles.Leaf;
+            this.navigationBarExt5.Location = new System.Drawing.Point(673, 315);
+            this.navigationBarExt5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.navigationBarExt5.Name = "navigationBarExt5";
+            this.navigationBarExt5.Size = new System.Drawing.Size(1045, 42);
+            this.navigationBarExt5.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.navigationBarExt5.TabIndex = 6;
+            this.navigationBarExt5.Text = "navigationBarExt5";
+            // 
+            // navigationBarExt4
+            // 
+            this.navigationBarExt4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.navigationBarExt4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(183)))), ((int)(((byte)(107)))));
+            this.navigationBarExt4.CausesValidation = false;
+            this.navigationBarExt4.ItemDisableTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.navigationBarExt4.ItemInterval = 4;
+            this.navigationBarExt4.ItemNormalBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            navigationBarItem26.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem26.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem26.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem26.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem26.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem26.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem26.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem26.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem26.Text = "一级菜单";
+            navigationBarItem27.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem27.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem27.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem27.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem27.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem27.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem27.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem27.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem27.Text = "二级菜单";
+            navigationBarItem28.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem28.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem28.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem28.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem28.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem28.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem28.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem28.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem28.Text = "三级菜单";
+            navigationBarItem29.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem29.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem29.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem29.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem29.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem29.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem29.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem29.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem29.Text = "四级菜单";
+            navigationBarItem30.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem30.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem30.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem30.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem30.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem30.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem30.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem30.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem30.Text = "五级菜单";
+            this.navigationBarExt4.Items.Add(navigationBarItem26);
+            this.navigationBarExt4.Items.Add(navigationBarItem27);
+            this.navigationBarExt4.Items.Add(navigationBarItem28);
+            this.navigationBarExt4.Items.Add(navigationBarItem29);
+            this.navigationBarExt4.Items.Add(navigationBarItem30);
+            this.navigationBarExt4.ItemStyle = WinformControlLibraryExtension.NavigationBarExt.ItemStyles.RoundCap;
+            this.navigationBarExt4.Location = new System.Drawing.Point(673, 261);
+            this.navigationBarExt4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.navigationBarExt4.Name = "navigationBarExt4";
+            this.navigationBarExt4.Size = new System.Drawing.Size(1045, 42);
+            this.navigationBarExt4.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.navigationBarExt4.TabIndex = 5;
+            this.navigationBarExt4.Text = "navigationBarExt4";
+            // 
+            // navigationBarExt3
+            // 
+            this.navigationBarExt3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.navigationBarExt3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(183)))), ((int)(((byte)(107)))));
+            this.navigationBarExt3.CausesValidation = false;
+            this.navigationBarExt3.ItemDisableTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.navigationBarExt3.ItemEnterBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(153)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
+            this.navigationBarExt3.ItemInterval = 4;
+            this.navigationBarExt3.ItemNormalBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
+            navigationBarItem31.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem31.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem31.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem31.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem31.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem31.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem31.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem31.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem31.Text = "一级菜单";
+            navigationBarItem32.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem32.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem32.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem32.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem32.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem32.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem32.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem32.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem32.Text = "二级菜单";
+            navigationBarItem33.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem33.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem33.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem33.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem33.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem33.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem33.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem33.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem33.Text = "三级菜单";
+            navigationBarItem34.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem34.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem34.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem34.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem34.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem34.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem34.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem34.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem34.Text = "四级菜单";
+            navigationBarItem35.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem35.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem35.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem35.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem35.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem35.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem35.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem35.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem35.Text = "五级菜单";
+            this.navigationBarExt3.Items.Add(navigationBarItem31);
+            this.navigationBarExt3.Items.Add(navigationBarItem32);
+            this.navigationBarExt3.Items.Add(navigationBarItem33);
+            this.navigationBarExt3.Items.Add(navigationBarItem34);
+            this.navigationBarExt3.Items.Add(navigationBarItem35);
+            this.navigationBarExt3.ItemStyle = WinformControlLibraryExtension.NavigationBarExt.ItemStyles.Parallelogram;
+            this.navigationBarExt3.Location = new System.Drawing.Point(673, 206);
+            this.navigationBarExt3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.navigationBarExt3.Name = "navigationBarExt3";
+            this.navigationBarExt3.Size = new System.Drawing.Size(1045, 42);
+            this.navigationBarExt3.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.navigationBarExt3.TabIndex = 4;
+            this.navigationBarExt3.Text = "navigationBarExt3";
+            // 
+            // navigationBarExt2
+            // 
+            this.navigationBarExt2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.navigationBarExt2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(183)))), ((int)(((byte)(107)))));
+            this.navigationBarExt2.CausesValidation = false;
+            this.navigationBarExt2.ItemDisableTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.navigationBarExt2.ItemInterval = 4;
+            navigationBarItem36.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem36.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem36.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem36.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem36.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem36.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem36.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem36.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem36.Text = "一级菜单";
+            navigationBarItem37.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem37.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem37.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem37.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem37.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem37.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem37.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem37.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem37.Text = "二级菜单";
+            navigationBarItem38.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem38.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem38.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem38.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem38.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem38.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem38.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem38.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem38.Text = "三级菜单";
+            navigationBarItem39.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem39.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem39.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem39.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem39.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem39.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem39.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem39.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem39.Text = "四级菜单";
+            navigationBarItem40.DisableBackColor = System.Drawing.Color.Empty;
+            navigationBarItem40.DisableTextColor = System.Drawing.Color.Empty;
+            navigationBarItem40.EnterBackColor = System.Drawing.Color.Empty;
+            navigationBarItem40.EnterTextColor = System.Drawing.Color.Empty;
+            navigationBarItem40.NormalBackColor = System.Drawing.Color.Empty;
+            navigationBarItem40.NormalTextColor = System.Drawing.Color.Empty;
+            navigationBarItem40.SelectedBackColor = System.Drawing.Color.Empty;
+            navigationBarItem40.SelectedTextColor = System.Drawing.Color.Empty;
+            navigationBarItem40.Text = "五级菜单";
+            this.navigationBarExt2.Items.Add(navigationBarItem36);
+            this.navigationBarExt2.Items.Add(navigationBarItem37);
+            this.navigationBarExt2.Items.Add(navigationBarItem38);
+            this.navigationBarExt2.Items.Add(navigationBarItem39);
+            this.navigationBarExt2.Items.Add(navigationBarItem40);
+            this.navigationBarExt2.Location = new System.Drawing.Point(673, 152);
+            this.navigationBarExt2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.navigationBarExt2.Name = "navigationBarExt2";
+            this.navigationBarExt2.Size = new System.Drawing.Size(1045, 42);
+            this.navigationBarExt2.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.navigationBarExt2.TabIndex = 3;
+            this.navigationBarExt2.Text = "navigationBarExt1";
+            // 
+            // NavigationBarExtForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(247)))), ((int)(((byte)(240)))));
+            this.ClientSize = new System.Drawing.Size(1758, 938);
+            this.Controls.Add(this.propertyGrid1);
+            this.Controls.Add(this.navigationBarExt8);
+            this.Controls.Add(this.navigationBarExt7);
+            this.Controls.Add(this.navigationBarExt6);
+            this.Controls.Add(this.navigationBarExt5);
+            this.Controls.Add(this.navigationBarExt4);
+            this.Controls.Add(this.navigationBarExt3);
+            this.Controls.Add(this.navigationBarExt2);
+            this.Controls.Add(this.navigationBarExt1);
+            this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.Name = "NavigationBarExtForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "面包屑导航栏控件";
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private WinformControlLibraryExtension.NavigationBarExt navigationBarExt2;
+        private WinformControlLibraryExtension.NavigationBarExt navigationBarExt3;
+        private WinformControlLibraryExtension.NavigationBarExt navigationBarExt4;
+        private WinformControlLibraryExtension.NavigationBarExt navigationBarExt5;
+        private WinformControlLibraryExtension.NavigationBarExt navigationBarExt1;
+        private WinformControlLibraryExtension.NavigationBarExt navigationBarExt6;
+        private WinformControlLibraryExtension.NavigationBarExt navigationBarExt7;
+        private WinformControlLibraryExtension.NavigationBarExt navigationBarExt8;
+        private System.Windows.Forms.PropertyGrid propertyGrid1;
+        private System.Windows.Forms.Button button1;
+    }
+}
