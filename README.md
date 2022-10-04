@@ -9,6 +9,13 @@ qq交流群： **180744253**
 
 #### 版本更新历史：
          
+**6.1.0.0       [2022-10-04]**  
+WinformControlLibraryExtension 
+修复RadioButtonExt.cs 单选按钮排斥其他选项错误问题。
+                   
+  
+         
+         
 **6.0.0.0       [2022-09-14]**  
 WinformControlLibraryExtension 
 WinformDemo 

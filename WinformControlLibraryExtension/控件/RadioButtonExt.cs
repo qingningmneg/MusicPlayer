@@ -1221,7 +1221,7 @@ namespace WinformControlLibraryExtension
             if (text_color != Color.Empty)
             {
                 SolidBrush text_sb = new SolidBrush(text_color);
-                g.DrawString(this.Text, this.Font, text_sb, this.text_rect.X, this.text_rect.Y,StringFormat.GenericTypographic);
+                g.DrawString(this.Text, this.Font, text_sb, this.text_rect.X, this.text_rect.Y, StringFormat.GenericTypographic);
                 text_sb.Dispose();
             }
             #endregion
@@ -1403,16 +1403,16 @@ namespace WinformControlLibraryExtension
             {
                 if (this.OperateScope == OperateScopes.Box)
                 {
-                    if (this.box_rect.Contains(e.Location))
+                    if (!this.Checked && this.box_rect.Contains(e.Location))
                     {
-                        this.UpdateChecked(!this.Checked);
+                        this.UpdateChecked(true);
                     }
                 }
                 else
                 {
-                    if (this.box_rect.Contains(e.Location) || this.text_rect.Contains(e.Location))
+                    if (!this.Checked && (this.box_rect.Contains(e.Location) || this.text_rect.Contains(e.Location)))
                     {
-                        this.UpdateChecked(!this.Checked);
+                        this.UpdateChecked(true);
                     }
                 }
             }
