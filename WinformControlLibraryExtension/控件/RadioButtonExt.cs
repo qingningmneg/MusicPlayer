@@ -1397,7 +1397,10 @@ namespace WinformControlLibraryExtension
 
             if (this.Style == Styles.Button)
             {
-                this.UpdateChecked(!this.Checked);
+                if (!this.Checked)
+                {
+                    this.UpdateChecked(true);
+                }
             }
             else
             {
