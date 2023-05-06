@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FEF5CE16-E6E3-4043-ABC0-F9C2EBAFE59B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>窗体</RootNamespace>
+    <AssemblyName>窗体</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.CodeParser.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v21.2.UI, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Diagram.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v21.2.Core, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v21.2.UI, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraDiagram.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WcleAnimationLibrary, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WcleAnimationLibrary\bin\Debug\WcleAnimationLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WinformControlLibraryExtension">
+      <HintPath>..\WinformControlLibraryExtension\obj\Debug\WinformControlLibraryExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="WinformControlLibraryExtension.ComplexityPropertys, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\WinformControlLibraryExtension.ComplexityPropertys.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\ButtonStatus.cs" />
+    <Compile Include="Enums\ClassStyle.cs" />
+    <Compile Include="Enums\MouseOperate.cs" />
+    <Compile Include="Enums\WindowStyle.cs" />
+    <Compile Include="Enums\WindowStyleEx.cs" />
+    <Compile Include="OperationString.cs" />
+    <Compile Include="PlayMusics.cs" />
+    <Compile Include="功能窗体%28客户端%29\FrmMusicList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能窗体%28客户端%29\FrmMusicList.Designer.cs">
+      <DependentUpon>FrmMusicList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能窗体%28客户端%29\FrmHistoryPlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能窗体%28客户端%29\FrmHistoryPlay.Designer.cs">
+      <DependentUpon>FrmHistoryPlay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能窗体%28管理端%29\FrmUploadFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能窗体%28管理端%29\FrmUploadFile.Designer.cs">
+      <DependentUpon>FrmUploadFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能窗体%28管理端%29\FrmAdminMusic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能窗体%28管理端%29\FrmAdminMusic.Designer.cs">
+      <DependentUpon>FrmAdminMusic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="打开看看.cs" />
+    <Compile Include="登陆注册\FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登陆注册\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能窗体%28客户端%29\FrmMainFroms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登陆注册\Frmmoban_复制.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登陆注册\Frmmoban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登陆注册\FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登陆注册\FrmVerification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登陆注册\FrmVerification.Designer.cs">
+      <DependentUpon>FrmVerification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileOperation.cs" />
+    <Compile Include="SqlHelper.cs" />
+    <Compile Include="功能窗体%28客户端%29\FrmSetUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能窗体%28客户端%29\FrmSetUp.Designer.cs">
+      <DependentUpon>FrmSetUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="窗体需要的类\RenderHelper.cs" />
+    <Compile Include="窗体需要的类\SystemButton.cs" />
+    <Compile Include="窗体需要的类\SystemButtonManager.cs" />
+    <Compile Include="窗体需要的类\Win32.cs" />
+    <Compile Include="功能窗体%28客户端%29\FrmMainHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能窗体%28客户端%29\FrmMainHome.Designer.cs">
+      <DependentUpon>FrmMainHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="功能窗体%28管理端%29\FrmAdminMainFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能窗体%28管理端%29\FrmAdminMainFrom.Designer.cs">
+      <DependentUpon>FrmAdminMainFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="功能窗体%28客户端%29\FrmFavoriteMusic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="功能窗体%28客户端%29\FrmFavoriteMusic.Designer.cs">
+      <DependentUpon>FrmFavoriteMusic.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="功能窗体%28客户端%29\FrmMusicList.resx">
+      <DependentUpon>FrmMusicList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能窗体%28客户端%29\FrmHistoryPlay.resx">
+      <DependentUpon>FrmHistoryPlay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能窗体%28管理端%29\FrmAdminMusic.resx">
+      <DependentUpon>FrmAdminMusic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能窗体%28管理端%29\FrmUploadFile.resx">
+      <DependentUpon>FrmUploadFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登陆注册\FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登陆注册\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能窗体%28管理端%29\FrmAdminMainFrom.resx">
+      <DependentUpon>FrmAdminMainFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能窗体%28客户端%29\FrmMainFroms.resx">
+      <DependentUpon>FrmMainFroms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登陆注册\Frmmoban_复制.resx">
+      <DependentUpon>Frmmoban_复制.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登陆注册\Frmmoban.resx">
+      <DependentUpon>Frmmoban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登陆注册\FrmRegister.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登陆注册\FrmVerification.resx">
+      <DependentUpon>FrmVerification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能窗体%28客户端%29\FrmSetUp.resx">
+      <DependentUpon>FrmSetUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="功能窗体%28客户端%29\FrmFavoriteMusic.resx">
+      <DependentUpon>FrmFavoriteMusic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功能窗体%28客户端%29\FrmMainHome.resx">
+      <DependentUpon>FrmMainHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinformDemo\WinformDemo.csproj">
+      <Project>{E6C4E151-5641-48DE-B87F-C5EBED51ED7B}</Project>
+      <Name>WinformDemo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Resources\继续.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Resources\暂停.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Resources\屏幕截图_20221028_121659.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Res\FormBkg\bkg_flower.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Res\FormBkg\bkg_owl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Res\FormBkg\bkg_stars.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Res\FormBkg\preview.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Res\FormBkg\preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Res\FormBkg\previews.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

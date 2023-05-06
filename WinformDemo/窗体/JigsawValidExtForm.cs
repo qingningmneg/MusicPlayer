@@ -48,5 +48,10 @@ namespace WinformDemo
             this.label1.Text = "---";
             this.slideValidExt1.ResetJigsaw();
         }
+
+        private void JigsawValidExtForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -40,10 +40,9 @@
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Location = new System.Drawing.Point(730, 458);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.button1.Location = new System.Drawing.Point(398, 262);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 40);
+            this.button1.Size = new System.Drawing.Size(65, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "一个滑块";
             this.button1.UseVisualStyleBackColor = true;
@@ -52,10 +51,9 @@
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button2.Location = new System.Drawing.Point(860, 458);
-            this.button2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.button2.Location = new System.Drawing.Point(469, 262);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 40);
+            this.button2.Size = new System.Drawing.Size(60, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "二个滑块";
             this.button2.UseVisualStyleBackColor = true;
@@ -64,10 +62,9 @@
             // button3
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button3.Location = new System.Drawing.Point(981, 458);
-            this.button3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.button3.Location = new System.Drawing.Point(535, 262);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 40);
+            this.button3.Size = new System.Drawing.Size(62, 23);
             this.button3.TabIndex = 3;
             this.button3.Text = "三个滑块";
             this.button3.UseVisualStyleBackColor = true;
@@ -78,20 +75,18 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(247)))), ((int)(((byte)(240)))));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(890, 419);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(485, 239);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 21);
+            this.label1.Size = new System.Drawing.Size(23, 12);
             this.label1.TabIndex = 4;
             this.label1.Text = "---";
             // 
             // button4
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button4.Location = new System.Drawing.Point(1106, 458);
-            this.button4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.button4.Location = new System.Drawing.Point(603, 262);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(138, 40);
+            this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 5;
             this.button4.Text = "刷新验证码";
             this.button4.UseVisualStyleBackColor = true;
@@ -103,10 +98,9 @@
             this.slideValidExt1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.slideValidExt1.BorderShow = true;
             this.slideValidExt1.CausesValidation = false;
-            this.slideValidExt1.Location = new System.Drawing.Point(704, 47);
-            this.slideValidExt1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.slideValidExt1.Location = new System.Drawing.Point(384, 27);
             this.slideValidExt1.Name = "slideValidExt1";
-            this.slideValidExt1.Size = new System.Drawing.Size(522, 350);
+            this.slideValidExt1.Size = new System.Drawing.Size(285, 200);
             this.slideValidExt1.TabIndex = 0;
             this.slideValidExt1.TabStop = false;
             this.slideValidExt1.Text = "slideValidExt1";
@@ -118,18 +112,17 @@
             this.propertyGrid1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.propertyGrid1.Location = new System.Drawing.Point(0, 0);
-            this.propertyGrid1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.propertyGrid1.Name = "propertyGrid1";
             this.propertyGrid1.SelectedObject = this.slideValidExt1;
-            this.propertyGrid1.Size = new System.Drawing.Size(642, 938);
+            this.propertyGrid1.Size = new System.Drawing.Size(350, 536);
             this.propertyGrid1.TabIndex = 6;
             // 
             // JigsawValidExtForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(247)))), ((int)(((byte)(240)))));
-            this.ClientSize = new System.Drawing.Size(1368, 936);
+            this.ClientSize = new System.Drawing.Size(746, 535);
             this.Controls.Add(this.propertyGrid1);
             this.Controls.Add(this.slideValidExt1);
             this.Controls.Add(this.button4);
@@ -137,10 +130,10 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "JigsawValidExtForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "拼图滑块验证控件";
+            this.Load += new System.EventHandler(this.JigsawValidExtForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

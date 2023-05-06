@@ -61,6 +61,7 @@ namespace WinformDemo
         public DemoForm()
         {
             InitializeComponent();
+            this.BorderColor = Color.White;
         }
 
         private void DemoForm_Load(object sender, EventArgs e)
